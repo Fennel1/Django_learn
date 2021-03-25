@@ -17,3 +17,18 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
 console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
 JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+
+(firefox:3452): Gtk-WARNING **: 12:12:55.231: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib/firefox/firefox:3531): Gtk-WARNING **: 12:12:55.999: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib/firefox/firefox:3555): Gtk-WARNING **: 12:12:57.118: Locale not supported by C library.
+	Using the fallback 'C' locale.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616674377968	Marionette	INFO	Listening on port 44355
+1616674378028	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616674378177	Marionette	INFO	Stopped listening on port 44355
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
