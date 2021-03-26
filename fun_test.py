@@ -27,14 +27,14 @@ class NewTest(unittest.TestCase):
         inputbox = self.browser.find_element_by_id('id_new_item')
         inputbox.send_keys('coding')
         inputbox.send_keys(Keys.ENTER)
-        time.sleep(1)
+        time.sleep(5)
 
         self.check_row_in_list_table('1: coding')
 
         inputbox = self.browser.find_element_by_id('id_new_item')
         inputbox.send_keys('code success')
         inputbox.send_keys(Keys.ENTER)
-        time.sleep(1)
+        time.sleep(5)
 
         self.check_row_in_list_table('1: coding')
         self.check_row_in_list_table('2: code success')
